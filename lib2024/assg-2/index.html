@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
-	<!-- header is where I used metas to keep header font and padding consistant. -->
+	<!-- header is where I used meta and style tags to keep header font and padding consistant. -->
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>assg-2</title>
+	<meta charset="utf-8">
+	<meta name="description" content="This is an HTML document containing HTML tags">
+	<meta name="keywords" content="HTML, HTML5, Tags, Basic HTML, Standard tags">
+	<meta name="robots" content="noindex, nofollow">
 	<style type="text/css">
 		h2, h3, h4, h5, h6 {
 			font-size: 26px;
@@ -16,82 +18,86 @@
 </head>
 <body>
 	<!-- These are the headings I used. -->
-	<h1>Assignment 2</h1>
-	<h2>Employee List</h2>
+	<header>
+		<h1>Assignment 2</h1>
+	</header>
+	<main>	
+		<h2>Employee List</h2>
 		<!-- This is the table. -->
-		<table cellpadding="2" cellspacing="2" border="1">
-			<thead>
-				<tr>
-					<th>Id</th>
-					<th>Name</th>
-					<th>email</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>1</td>
-					<td>John</td>
-					<td>john@fakemail.com</td>
-				</tr>
-				<tr>
-					<td>2</td>
-					<td>sam</td>
-					<td>sam@faemail.com</td>
-				</tr>
-				<tr>
-					<td>1</td>
-					<td>Bob</td>
-					<td>bob@fakemail.com</td>
-				</tr>
-				<tr>
-					<td>1</td>
-					<td>Jack</td>
-					<td>jack@fakemail.com</td>
-				</tr>
-				<tr>
-					<td>1</td>
-					<td>rob</td>
-					<td>Rob@fakemail.com</td>
-				</tr>
-			</tbody>
-			<tfoot>
-				<tr>
-					<td colspan="3">
+			<table cellpadding="2" cellspacing="2" border="1">
+				<thead>
+					<tr>
+						<th>Id</th>
+						<th>Name</th>
+						<th>email</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>John</td>
+						<td>john@fakemail.com</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>sam</td>
+						<td>sam@faemail.com</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>Bob</td>
+						<td>bob@fakemail.com</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>Jack</td>
+						<td>jack@fakemail.com</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>rob</td>
+						<td>Rob@fakemail.com</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td colspan="3">
 						All of the above are Division Heads
-					</td>
-				</tr>
-			</tfoot>
-		</table>
+						</td>
+					</tr>
+				</tfoot>
+			</table>
 			<!-- This is where I put the animal photos. -->
-	<h3>Animals</h3>
-		<section>
-			<img src="img/elephant.jpg" alt="elephant" width="300" height="200">
-			<figcaption>This is an elephant.</figcaption>
-			<img src="img/lion.jpg" alt="lion" width="300" height="200">
-			<figcaption>This is a lion.</figcaption>
-			<img src="img/snake.jpg" alt="snake" width="300" height="200">
-			<figcaption>This is a snake.</figcaption>
-			<img src="img/whale.jpg" alt="whale" width="300" height="200">
-			<figcaption>This is a whale.</figcaption>
-			<img src="img/hawk.jpg" alt="hawk" width="300" height="200">
-			<figcaption>This is a hawk.</figcaption>
-		</section>
-	<h4>HTML entities</h4>
-		<p>Non Breaking Space: &nbsp;</p>
-		<p>ampersand : &amp;</p>
-		<p>Pound : &pound;</p>
-		<p>Copyright : &copy;</p>
-	<h5>Special Tags :</h5>
-		<dl>
-			<dt>Coffee</dt>
-				<dd>- black hot drink</dd>
-			<dt>Milk</dt>
-				<dd>- white cold drink</dd>
-		</dl>
-		<p style="text-decoration: underline;">HTML</p>
-		<p style="text-decoration: underline;text-decoration-style: dotted;">CSS</p>
-		<p>&#x25BC; What is a mobile Phone? <br>A mobile phone, cell phone or hand phone, sometimes shortened to simply mobile, cell or just phone, is a portable telephone that can make and receive calls over a radio frequency link while the user is moving within a telephone service area.</p>
-	<h6>Hiddent comment:</h6>
+		<h3>Animals</h3>
+			<section>
+				<img src="img/elephant.jpg" alt="elephant" width="300" height="200">
+				<figcaption>This is an elephant.</figcaption>
+				<img src="img/lion.jpg" alt="lion" width="300" height="200">
+				<figcaption>This is a lion.</figcaption>
+				<img src="img/snake.jpg" alt="snake" width="300" height="200">
+				<figcaption>This is a snake.</figcaption>
+				<img src="img/whale.jpg" alt="whale" width="300" height="200">
+				<figcaption>This is a whale.</figcaption>
+				<img src="img/hawk.jpg" alt="hawk" width="300" height="200">
+				<figcaption>This is a hawk.</figcaption>
+			</section>
+		<h4>HTML entities</h4>
+			<p>Non Breaking Space: &nbsp;</p>
+			<p>ampersand : &amp;</p>
+			<p>Pound : &pound;</p>
+			<p>Copyright : &copy;</p>
+		<h5>Special Tags :</h5>
+			<dl>
+				<dt>Coffee</dt>
+					<dd>- black hot drink</dd>
+				<dt>Milk</dt>
+					<dd>- white cold drink</dd>
+			</dl>
+			<p style="text-decoration: underline;">HTML</p>
+			<p style="text-decoration: underline;text-decoration-style: dotted;">CSS</p>
+			<p>&#x25BC; What is a mobile Phone? <br>A mobile phone, cell phone or hand phone, sometimes shortened to simply mobile, cell or just phone, is a portable telephone that can make and receive calls over a radio frequency link while the user is moving within a telephone service area.</p>
+		<h6>Hiddent comment:</h6>
 		<!--my hidden comment. Have a nice day.-->
+	</main>
 </body>
 </html>
