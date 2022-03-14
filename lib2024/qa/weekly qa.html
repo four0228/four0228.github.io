@@ -36,11 +36,7 @@
 			border-top: 16px solid #3498db;
 
 			animation: 
-				spin 2s linear infinite,
-				change-color 4s ease-in-out infinite,
-				border-radius-change 1s ease infinite;
-			
-
+				spin 2s linear infinite,	
 		}
 
 		@keyframes spin {
@@ -51,39 +47,6 @@
 				transform: rotate(360deg);
 			}
 		}
-
-		@keyframes change-color {
-			/*0 % is begining*/
-			0% {
-				border-top-color: #3498db;
-			}
-
-			50% {
-				border-top-color: #FF5722;
-			}
-
-			100% {
-				border-top-color: #3498db;
-			}
-		}
-
-		@keyframes border-radius-change {
-
-			0% {
-				border-radius: 50%;
-			}
-
-			50% {
-
-				border-radius: 0%;
-			}
-
-			100% {
-
-				border-radius: 50%;
-			}
-		}
-
 		</style>
 	</head>
 	<body>
