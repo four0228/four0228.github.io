@@ -14,12 +14,12 @@ footer {
 	background-color: #7CC576;
 }  
 #page-header img {
-	float left;
+	float: left;
 	width: 136px;
 	height: 128px;
 }
 
 #page-header h1 {
-	float left;
+	float: left;
 	width: 50%;
 }
