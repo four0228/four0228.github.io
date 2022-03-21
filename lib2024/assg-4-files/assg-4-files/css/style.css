@@ -53,3 +53,18 @@ article {
 #main-content {
 	padding: 10px;
 }
+#copyright {
+	width: 40%;
+	float: left;
+	vertical-align: middle;
+}
+#social-media {
+	width: 40%;
+	float: right;
+}
+#menu-social-media {
+	list-style: none;
+}
+#menu-social-media li {
+	display: inline;
+}
