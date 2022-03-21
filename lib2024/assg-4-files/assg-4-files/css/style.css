@@ -15,8 +15,11 @@ footer {
 }  
 #page-header img {
 	float left;
+	width: 136px;
+	hieght: 128px;
 }
 
 #page-header h1 {
 	float left;
+	width: 50%;
 }
