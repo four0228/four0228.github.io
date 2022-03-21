@@ -35,8 +35,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	width: 960px;
-	margin: 0 auto 0 auto;
 }
 ol, ul {
 	list-style: none;
@@ -62,7 +60,8 @@ table {
 	clear: both;
 }
 body {
-	
+	width: 960px;
+	margin: 0 auto 0 auto;
 }
 header {
     background-color: #7CC576;
