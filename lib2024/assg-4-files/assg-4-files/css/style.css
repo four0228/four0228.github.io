@@ -23,3 +23,6 @@ footer {
 	float: left;
 	width: 50%;
 }
+.clearall {
+	float: clear;
+}
