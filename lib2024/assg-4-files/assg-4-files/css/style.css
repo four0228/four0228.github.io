@@ -129,6 +129,7 @@ article {
 	width: 40%;
 	float: right;
 	background-color: transparent;
+	padding-top: 20;
 }
 #menu-social-media {
 	list-style: none;
@@ -136,7 +137,6 @@ article {
 #menu-social-media li {
 	display: inline;
 	float: right;
-	padding-top: 20;
 }
 h2 {
 	font-size: 140%;
