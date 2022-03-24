@@ -132,6 +132,7 @@ article {
 }
 #menu-social-media li {
 	display: inline;
+	float: right;
 }
 h2 {
 	font-size: 140%;
