@@ -106,9 +106,6 @@ article {
 	float: right;
 	margin: 0;
 }
-#sidebar-img {
-	width: 30%;
-}
 #main-content {
 	padding: 10px;
 }
@@ -132,6 +129,7 @@ article {
 h1 {
 	font-size: 200%;
 	font-weight: bold;
+	padding-top: 55px;
 }
 h2 {
 	font-size: 140%;
