@@ -68,6 +68,7 @@ header {
 }
 footer {
 	background-color: #7CC576;
+	height: 45px;
 }  
 #page-header img {
 	float: left;
