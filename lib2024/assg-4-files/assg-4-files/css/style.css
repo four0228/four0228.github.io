@@ -78,6 +78,9 @@ footer {
 #page-header h1 {
 	float: left;
 	width: 50%;
+	font-size: 200%;
+	font-weight: bold;
+	padding-top: 50px;
 }
 .clearall {
 	clear: both;
@@ -125,11 +128,6 @@ article {
 }
 #menu-social-media li {
 	display: inline;
-}
-h1 {
-	font-size: 200%;
-	font-weight: bold;
-	padding-top: 55px;
 }
 h2 {
 	font-size: 140%;
