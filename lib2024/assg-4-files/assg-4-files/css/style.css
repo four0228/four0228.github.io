@@ -133,6 +133,8 @@ article {
 #menu-social-media li {
 	display: inline;
 	float: right;
+	padding-top: 5px;
+	padding-right: 5px;
 }
 h2 {
 	font-size: 140%;
