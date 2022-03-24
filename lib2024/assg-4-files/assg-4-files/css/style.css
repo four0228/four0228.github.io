@@ -120,6 +120,7 @@ article {
 	float: left;
 	vertical-align: middle;
 	background-color: transparent;
+	padding-top: 25px;
 }
 #social-media {
 	width: 40%;
