@@ -116,6 +116,7 @@ article {
 }
 #main-content {
 	padding: 10px;
+	background-image: image('pexels-henry-&-co-2341290.jpg');
 }
 #copyright {
 	width: 40%;
