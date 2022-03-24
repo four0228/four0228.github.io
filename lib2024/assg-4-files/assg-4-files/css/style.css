@@ -114,6 +114,9 @@ article {
 	float: right;
 	margin: 0;
 }
+#sidebar img {
+	padding-right: 10px;
+}
 #main-content {
 	padding: 10px;
 }
@@ -139,6 +142,7 @@ article {
 }
 #menu-social-media img {
 	padding-top: 20px;
+	padding-right: 10px;
 }
 h2 {
 	font-size: 140%;
