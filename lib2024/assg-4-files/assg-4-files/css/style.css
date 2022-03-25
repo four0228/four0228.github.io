@@ -125,6 +125,9 @@ article p {
 	float: right;
 	margin: 0;
 }
+#sidebar p {
+	margin: 20px 0 20px 0;
+}
 #main-content {
 	padding: 10px;
 }
