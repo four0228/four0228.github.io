@@ -102,11 +102,11 @@ footer {
 	text-align: center;
 	vertical-align: middle;
 	font-size: 125%;
+	margin: 0 50px 0 50px;
 }
 #top-navigation {
 	padding: 20px 0 30px 0;
 	display: inline-flex;
-	margin: 0 50px 0 50px;
 }
 article {
 	width: 70%;
