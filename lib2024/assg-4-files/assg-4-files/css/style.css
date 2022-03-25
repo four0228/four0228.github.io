@@ -128,6 +128,9 @@ article p {
 #sidebar p {
 	margin: 20px 0 20px 0;
 }
+#sidebar-img {
+	margin: 20px 0 20px 0;
+}
 #main-content {
 	padding: 10px;
 }
