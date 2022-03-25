@@ -158,6 +158,10 @@ article p {
 	padding-top: 20px;
 	padding-right: 10px;
 }
+.social-media-img {
+	height: 75%;
+	width: 75%;
+}
 h2 {
 	font-size: 140%;
 	font-weight: bold;
