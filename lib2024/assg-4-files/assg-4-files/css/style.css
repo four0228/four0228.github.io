@@ -166,7 +166,13 @@ h3, h4 {
 	font-size: 130%;
 	font-weight: bold;
 }
+#second-img {
+	margin-top: 20px;
+}
 figure {
 	display: inline-block;
 	padding: 0 55px 0 55px;
+}
+figcaption {
+	text-align: center;
 }
