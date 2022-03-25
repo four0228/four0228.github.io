@@ -103,10 +103,13 @@ footer {
 	vertical-align: middle;
 	font-size: 125%;
 	margin: 0 50px 0 50px;
+	display: table-column;
 }
 #top-navigation {
 	padding: 20px 0 30px 0;
 	display: inline-flex;
+	flex-wrap: wrap;
+	column-gap: 20px;
 	width: 100%;
 }
 article {
