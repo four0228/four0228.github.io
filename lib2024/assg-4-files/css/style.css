@@ -90,6 +90,16 @@ footer {
 .clearall {
 	clear: both;
 }
+.topnav {
+	width: 100%;
+	display: table;
+	table-layout: fixed;
+}
+.topnav li {
+	display: table-cell;
+	width: 25%;
+	text-align: center;
+}
 .top-button {
 	border-radius: 4px;
 	background-color: #6DCFF6;
