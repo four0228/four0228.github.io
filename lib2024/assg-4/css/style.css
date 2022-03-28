@@ -111,7 +111,7 @@ footer {
 	display: inline-flex;
 	flex-wrap: wrap;
 	column-gap: 20px;
-	width: 25%;
+	width: 100%;
 }
 article {
 	width: 70%;
