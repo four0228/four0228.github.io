@@ -107,11 +107,10 @@ footer {
 	display: table-column;
 }
 #top-navigation {
-	/*padding: 20px 0 30px 0;*/
-	padding: 25%;
-	/*display: inline-flex;*/
-	/*flex-wrap: wrap;*/
-	/*column-gap: 20px;*/
+	padding: 20px 0 30px 0;
+	display: inline-flex;
+	flex-wrap: wrap;
+	column-gap: 20px;
 	width: 100%;
 }
 article {
