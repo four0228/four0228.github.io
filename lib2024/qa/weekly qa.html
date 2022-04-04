@@ -61,7 +61,10 @@
 			top: 50% ;
 			transform: translate(-50%, -50%);
 		}
-		alert("I love JavaScript"); 
+		$alert("I love JavaScript"); 
+		$("button").click(function(){
+  			$("p").fadeOut(300ms);
+		});
 		</style>
 	</head>
 	<body>
@@ -105,6 +108,7 @@
 				<li>How would you include create an alert with string "I love JavaScript" using JavaScript?</li>
 					<p>To make an alert string in JavaScript, you need to make an alert tag in JSON. To add the desired message just include it in the bracets of your tag.</p>
 				<li>How would you fade out an element with id "fade-me" after a delay of 300ms using JQuery?</li>
+					<p id="fade-me">I would use JSON language to include a fade out function set to 300ms to fade out a "fade-me" id.</p>
 				<li>How would you select all elements with class "my-class" using Javascript and Jquery?</li>
 				<li>Give an example of input field that takes phone number with format "123-456-7890"?</li>
 				<li>Among HTML, CSS, Javascript, JQuery, what language did you like the best? State the reason.</li>
