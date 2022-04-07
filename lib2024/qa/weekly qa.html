@@ -51,10 +51,10 @@
 			}
 		}*/
 		
-		$alert("I love JavaScript"); 
+		/*$alert("I love JavaScript"); 
 		$("button").click(function(){
   			$("p").fadeOut(300ms);
-		});
+		});*/
 		document.querySelectorAll(".my-class");
 		var x = document.createElement("INPUT");
 		x.setAttribute("type", "tel");
@@ -65,6 +65,7 @@
 			<div class="loader"></div>
 		</div>	
 		<h1 class="rotate-me">Weekly QA</h1>
+		<!--I put the "rotate-me" class in the h1 just in case I needed to creat a functioning rotating element.-->
 		<div>
 			<ol>
 				<li>What are the three components of Web?
@@ -156,17 +157,28 @@
 				</li>
 					<!--<p>I made the &lt;h1&gt; element spin.</p>-->
 				<li>How would you include create an alert with string "I love JavaScript" using JavaScript?</li>
-					<p>To make an alert string in JavaScript, you need to make an alert tag in JSON. To add the desired message just include it in the bracets of your tag. Example in Head tag.</p>
+					<p>To make an alert string in JavaScript, you need to make an alert tag in JSON. To add the desired message just include it in the bracets of your tag. Example bellow.</p>
+					<div>
+						$alert("I love JavaScript");<br> 
+						$("button").click(function(){<br>
+  						$("p").fadeOut(300ms);<br>
+						});<br>
+					</div>
 				<li>How would you fade out an element with id "fade-me" after a delay of 300ms using JQuery?</li>
 					<p id="fade-me">I would use JSON language to include a fade out function set to 300ms to fade out a "fade-me" id. Example in Head tag.</p>
 				<li>How would you select all elements with class "my-class" using Javascript and Jquery?</li>
 					<p>I would use a Jquery selector and have "my-class" be the item that the selector focuses on. Example in Head tag.</p>
 				<li>Give an example of input field that takes phone number with format "123-456-7890"?</li>
-					<form action="/action_page.php">
-  						<label for="phone">phone number:</label>
- 			 			<input type="tel" id="phone" name="phone">
-  						<input type="submit" value="Submit">
-					</form>
+					<div>
+						document.querySelectorAll(".my-class");<br>
+						var x = document.createElement("INPUT");<br>
+						x.setAttribute("type", "tel");<br>
+					</div>
+					&lt;form action="/action_page.php"&gt;
+  						&lt;label for="phone"&gt;phone number:&lt;/label&gt;
+ 			 			&lt;input type="tel" id="phone" name="phone"&gt;
+  						&lt;input type="submit" value="Submit"&gt;
+					&lt;/form&gt;
 				<li>Among HTML, CSS, Javascript, JQuery, what language did you like the best? State the reason.</li>
 					<p>I prefer CSS as I can focus my attention to detail nearly entirely in a CSS file. The HTML can stay simple and bare bones with room to play in CSS.</p>
 			</ol>
