@@ -133,9 +133,28 @@
 							}<br>
 					</div>
 				</li>
-				<li>Create CSS keyframes block called "spin" that rotates an element.<br>Example of a spin element in the head tag of HTML code.</li>
-				<li>Create CSS animation block to rotate an element that has the following properties:<br>class "rotate-me"
-				It rotates 5 times at intervals of 0.5s with "linear" transition using animation keyframes "spin"</li>
+				<li>Create CSS keyframes block called "spin" that rotates an element.
+					<p>Example of a spin element bellow.</p>
+					<div>
+						@keyframes spin {<br>
+							from {<br>
+							transform: rotate(0deg);<br>
+							}<br>
+							to {<br>
+							transform: rotate(360deg);<br>
+							}<br>
+						}<br>
+					</div>
+				</li>
+				<li>Create CSS animation block to rotate an element that has the following properties:
+					<p>class "rotate-me" It rotates 5 times at intervals of 0.5s with "linear" transition using animation keyframes "spin"</p>
+					<div>
+						.rotate-me {<br>
+							animation:<br> 
+								spin 0.5s linear 5;<br>	
+						}<br>
+					</div>
+				</li>
 					<p>I made the &lt;h1&gt; element spin.</p>
 				<li>How would you include create an alert with string "I love JavaScript" using JavaScript?</li>
 					<p>To make an alert string in JavaScript, you need to make an alert tag in JSON. To add the desired message just include it in the bracets of your tag. Example in Head tag.</p>
