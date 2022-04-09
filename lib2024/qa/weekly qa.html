@@ -66,22 +66,23 @@
 				</li>
 					&lt;p style="color:green;"&gt;A green paragraph.&lt;/p&gt;
 				<li>How would you link an external style sheet? Give example.
-					<br>I would link an external style sheet using the &lt;link&gt; element inside the head element. An example is in the head tag.
+					<br>I would link an external style sheet using the &lt;link&gt; element inside the head element. Example below.
+					<br>&lt;link rel="stylesheet" href=" "&gt;
 				</li>
 				<li>Create CSS block to center an element both horizontally and vertically that has position:absolute and has width:200px and height:200px.
 					<br>Below I gave an example of a centered element (in this case a green square) that has position:absolute and has width:200px and height:200px.
 					<div>
-						&lt;div id="square-absolute"&gt;&lt;/div&gt;
-							#square-absolute {<br>
-								background-color: #00ff00;<br>
-								width: 200px;<br>
-								height: 200px;<br>
-								position: absolute;<br>
-								margin: auto;<br>
-								left: 50% ;<br>
-								top: 50% ;<br>
-								transform: translate(-50%, -50%);<br>
-							}<br>
+						<br>&lt;div id="square-absolute"&gt;&lt;/div&gt;
+							<br>#square-absolute {
+								<br>background-color: #00ff00;
+								<br>width: 200px;
+								<br>height: 200px;
+								<br>position: absolute;
+								<br>margin: auto;
+								<br>left: 50% ;
+								<br>top: 50% ;
+								<br>transform: translate(-50%, -50%);
+							<br>}
 					</div>
 				</li>
 				<li>Create CSS keyframes block called "spin" that rotates an element.
@@ -106,18 +107,22 @@
 						<br>}
 					</div>
 				</li>
-				<li>How would you include create an alert with string "I love JavaScript" using JavaScript?</li>
-					<br>To make an alert string in JavaScript, you need to make an alert tag in JSON. To add the desired message just include it in the bracets of your tag. Example bellow.
+				<li>How would you include create an alert with string "I love JavaScript" using JavaScript?
+					<br>To make an alert string in JavaScript, you need to make an alert tag in JQuery. To add the desired message just include it in the bracets of your tag. Example bellow.
 					<div>
-						$alert("I love JavaScript");<br> 
-						$("button").click(function(){<br>
+						<br>$(document). ready(function)(){
+							<br>$("#btn-alert"). click(function)(){
+								<br>alert("I love JavaScript");
+							<br>});
+						<br>});
 					</div>
-				<li>How would you fade out an element with id "fade-me" after a delay of 300ms using JQuery?</li>
+				</li>	
+				<li>How would you fade out an element with id "fade-me" after a delay of 300ms using JQuery?
 					<br>&lt;p id="fade-me"&gt;I would use JSON language to include a fade out function set to 300ms to fade out a "fade-me" id in this paragraph. Example bellow.
 					<div>
 						<br>$("p").fadeOut(300ms);
-						<br>});
 					</div>
+				</li>
 				<li>How would you select all elements with class "my-class" using Javascript and Jquery?</li>
 					<br>I would use a Jquery selector and have "my-class" be the item that the selector focuses on. Example in Head tag.
 				<li>Give an example of input field that takes phone number with format "123-456-7890"?</li>
