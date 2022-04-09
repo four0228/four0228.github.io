@@ -39,9 +39,9 @@
 				<li>What are the tags required to create a navigation list in HTML?
 					<br>The nav tag and the li tag would be used. The nav tag would be the parent to the li tag, with variation in the class of nav tag and type of list used. You would also use an a tag to link the nav menu to what it is designed to navigate to/ from.
 					<br>&lt;nav class="menu"&gt;
-						<br>&lt;ul&gt;
-							<br>&lt;li&gt;&lt;a href="#"&gt;This would be the start of a navigable menu&lt;/a&gt;&lt;/li&gt;
-						<br>&lt;/ul&gt;
+					<br>&lt;ul&gt;
+					<br>&lt;li&gt;&lt;a href="#"&gt;This would be the start of a navigable menu&lt;/a&gt;&lt;/li&gt;
+					<br>&lt;/ul&gt;
 					<br>&lt;/nav&gt;
 				</li>
 				<li>What element is used to create images? Name its attributes.
@@ -57,14 +57,14 @@
 				<li>What is the use of name and value attributes? Give two examples:
 					<br>The name attribute is used to specifiy the name of an input element. The value attribute is used to specifiy the value of an input element. Example bellow from assg-3.
 					<br>&lt;div id="fn-container" class="form-elm"&gt;
-						<br>&lt;label for="FirstName"&gt;First name&lt;/label&gt;
-						<br>&lt;input type="text" name="FirstName" id="FirstName" placeholder="First name goes here" value=" "&gt;
+					<br>&lt;label for="FirstName"&gt;First name&lt;/label&gt;
+					<br>&lt;input type="text" name="FirstName" id="FirstName" placeholder="First name goes here" value=" "&gt;
 					<br>&lt;/div&gt;
 				</li>	
 				<li>Give an example of inline style.
 					<br>Inline style referes to the use of style elements for a single line of HTML, using CSS to achieve this. Example bellow.
+					<br>&lt;p style="color:green;"&gt;A green paragraph.&lt;/p&gt;
 				</li>
-					&lt;p style="color:green;"&gt;A green paragraph.&lt;/p&gt;
 				<li>How would you link an external style sheet? Give example.
 					<br>I would link an external style sheet using the &lt;link&gt; element inside the head element. Example below.
 					<br>&lt;link rel="stylesheet" href=" "&gt;
@@ -73,28 +73,28 @@
 					<br>Below I gave an example of a centered element (in this case a green square) that has position:absolute and has width:200px and height:200px.
 					<div>
 						<br>&lt;div id="square-absolute"&gt;&lt;/div&gt;
-							<br>#square-absolute {
-								<br>background-color: #00ff00;
-								<br>width: 200px;
-								<br>height: 200px;
-								<br>position: absolute;
-								<br>margin: auto;
-								<br>left: 50% ;
-								<br>top: 50% ;
-								<br>transform: translate(-50%, -50%);
-							<br>}
+						<br>#square-absolute {
+						<br>background-color: #00ff00;
+						<br>width: 200px;
+						<br>height: 200px;
+						<br>position: absolute;
+						<br>margin: auto;
+						<br>left: 50% ;
+						<br>top: 50% ;
+						<br>transform: translate(-50%, -50%);
+						<br>}
 					</div>
 				</li>
 				<li>Create CSS keyframes block called "spin" that rotates an element.
 					<br>Example of a spin element bellow.
 					<div>
 						<br>@keyframes spin {
-							<br>from {
-							<br>transform: rotate(0deg);
-							<br>}
-							<br>to {
-							<br>transform: rotate(360deg);
-							<br>}
+						<br>from {
+						<br>transform: rotate(0deg);
+						<br>}
+						<br>to {
+						<br>transform: rotate(360deg);
+						<br>}
 						<br>}
 					</div>
 				</li>
@@ -102,8 +102,8 @@
 					<br>class "rotate-me" It rotates 5 times at intervals of 0.5s with "linear" transition using animation keyframes "spin"
 					<div>
 						<br>.rotate-me {
-							<br>animation: 
-								<br>spin 0.5s linear 5;	
+						<br>animation: 
+						<br>spin 0.5s linear 5;	
 						<br>}
 					</div>
 				</li>
@@ -111,9 +111,9 @@
 					<br>To make an alert string in JavaScript, you need to make an alert tag in JQuery. To add the desired message just include it in the bracets of your tag. Example bellow.
 					<div>
 						<br>$(document). ready(function)(){
-							<br>$("#btn-alert"). click(function)(){
-								<br>alert("I love JavaScript");
-							<br>});
+						<br>$("#btn-alert"). click(function)(){
+						<br>alert("I love JavaScript");
+						<br>});
 						<br>});
 					</div>
 				</li>	
@@ -132,9 +132,9 @@
 				<li>Give an example of input field that takes phone number with format "123-456-7890"?
 					<div>
 						<br>&lt;form action="/action_page.php"&gt;
-  							<br>&lt;label for="phone"&gt;phone number:&lt;/label&gt;
- 			 				<br>&lt;input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"&gt;
-  							<br>&lt;input type="submit" value="Submit"&gt;
+  						<br>&lt;label for="phone"&gt;phone number:&lt;/label&gt;
+ 			 			<br>&lt;input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"&gt;
+  						<br>&lt;input type="submit" value="Submit"&gt;
 						<br>&lt;/form&gt;
 					</div>
 				</li>
