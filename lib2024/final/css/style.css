@@ -67,3 +67,11 @@ table {
   text-decoration: none;
   border-radius: 50%;
 }
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
