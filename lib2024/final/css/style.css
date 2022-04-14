@@ -59,6 +59,7 @@ table {
 	display: table;
 	clear: both;
 }
+
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -67,14 +68,17 @@ table {
   text-decoration: none;
   border-radius: 50%;
 }
+
 .fa-facebook {
   background: #3B5998;
   color: white;
 }
+
 .fa-youtube {
 	background: #D42427;
 	color: white;
 }
+
 .fa-twitter {
   background: #55ACEE;
   color: white;
