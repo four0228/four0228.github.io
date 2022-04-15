@@ -35,6 +35,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	width:  960px;
+	margin: 0 auto 0 auto;
 }
 ol, ul {
 	list-style: none;
@@ -87,7 +89,7 @@ h2,h3,h4,h5 {
 }
 
 #schedule {
-	float: left;
+	/*float: left;*/
 }
 
 table, th, td {
@@ -101,17 +103,19 @@ th {
 	font-size: 20px;
 }
 
-#profile {
-	float: right;
+#profile-form {
+	float: left;
+	width:  50%;
 }
 
 #profile-info {
 	border: 1px solid black;
-	width: 50%;
+	width: inherit;
 }
 
 #profile-inside {
-	float: right;
+	float: left;
+	width:  50%;
 }
 
 .profile-text {
@@ -120,6 +124,11 @@ th {
 
 footer {
 	background-color: #454545;
+	color: #ffffff;
+}
+footer a {
+	color:  #ffffff;
+	text-decoration: none;
 }
 
 .fa {
