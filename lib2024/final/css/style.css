@@ -60,6 +60,10 @@ table {
 	clear: both;
 }
 
+#top-navigation {
+	Width: 100%;
+}
+
 .top-button {
   float: left;
   background-color: #72A9AE;
