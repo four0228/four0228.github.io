@@ -60,6 +60,12 @@ table {
 	clear: both;
 }
 
+.top-button {
+  float: left;
+  background-color: #72A9AE;
+  color: black;
+}
+
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
