@@ -36,6 +36,9 @@ footer, header, hgroup, menu, nav, section {
 header {
 	background-color: #ffffff;
 }
+h1 {
+	color: #73A8B0;
+}
 body {
 	line-height: 1;
 	width:  960px;
