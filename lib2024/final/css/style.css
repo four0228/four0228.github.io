@@ -87,10 +87,6 @@ table, th, td {
 	width: 25%;
 }
 
-.profile-align {
-	float: right;
-}
-
 .profile-text {
 	text-align: center;
 }
@@ -102,7 +98,6 @@ table, th, td {
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-  float: left;
 }
 
 .fa-facebook {
