@@ -89,7 +89,7 @@ th {
 }
 
 #profile {
-	width: 100%;
+	display: flex;
 }
 
 #profile-info {
@@ -99,6 +99,7 @@ th {
 
 #profile-inside {
 	float: right;
+	flex-grow: 1;
 }
 
 .profile-text {
