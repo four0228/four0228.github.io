@@ -61,13 +61,11 @@ table {
 }
 
 #about-text {
-	display: flex;
 	width: 50%;
 	float: left;
 }
 
 #about-img {
-	flex-grow: 1;
 	float: right;
 }
 
@@ -104,7 +102,6 @@ th {
 }
 
 #profile {
-	display: flex;
 	float: right;
 }
 
@@ -115,7 +112,6 @@ th {
 
 #profile-inside {
 	float: right;
-	flex-grow: 1;
 }
 
 .profile-text {
