@@ -82,6 +82,11 @@ table, th, td {
   border-collapse: collapse;
 }
 
+th {
+	color: #73A8B0;
+	font-size: 20px;
+}
+
 #profile-info {
 	border: 1px solid black;
 	width: 25%;
