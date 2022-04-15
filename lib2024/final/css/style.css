@@ -141,6 +141,7 @@ th {
 #profile-inside {
 	float: left;
 	width:  50%;
+	margin: 20px;
 }
 
 .profile-text {
@@ -160,7 +161,7 @@ th {
 footer {
 	background-color: #454545;
 	color: #ffffff;
-	padding: 20px 0 0 0;
+	padding: 0;
 	height: 100px;
 }
 .bottom-button {
