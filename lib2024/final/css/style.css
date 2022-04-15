@@ -33,6 +33,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+header {
+	background-color: #ffffff;
+}
 body {
 	line-height: 1;
 	width:  960px;
