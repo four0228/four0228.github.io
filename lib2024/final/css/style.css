@@ -60,6 +60,11 @@ table {
 	clear: both;
 }
 
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
 .fa {
   padding: 20px;
   font-size: 40px;
