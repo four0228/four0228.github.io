@@ -141,7 +141,7 @@ th {
 #profile-inside {
 	float: left;
 	width:  50%;
-	margin: 20px;
+	margin: 15px;
 }
 
 .profile-text {
@@ -155,7 +155,7 @@ th {
 
 #profile-email {
 	text-align: center;
-	font-size: 30px;
+	font-size: 40px;
 }
 
 footer {
