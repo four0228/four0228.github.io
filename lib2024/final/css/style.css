@@ -93,7 +93,6 @@ h2,h3,h4,h5 {
 	background-color: #72A9AE;
 	vertical-align: bottom;
 	margin: 0px;
-	text-decoration: none;
 }
 
 .top-button {
@@ -101,6 +100,7 @@ h2,h3,h4,h5 {
   width: 20%;
   background-color: #72A9AE;
   color: black;
+  text-decoration: none;
 }
 
 #schedule {
