@@ -82,6 +82,10 @@ table, th, td {
   border-collapse: collapse;
 }
 
+#profile-info {
+	border: 1px solid black;
+}
+
 .fa {
   padding: 20px;
   font-size: 40px;
