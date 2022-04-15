@@ -106,6 +106,10 @@ table, th, td {
   float: center;
 }
 
+.fa-user {
+	background: #FFFFFF;
+}
+
 .fa-facebook {
   background: #3B5998;
   color: white;
