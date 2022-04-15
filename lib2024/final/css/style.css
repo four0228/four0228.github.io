@@ -63,6 +63,7 @@ table {
 #about-text {
 	display: flex;
 	width: 50%;
+	float: left;
 }
 
 #about-img {
