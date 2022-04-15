@@ -60,7 +60,12 @@ table {
 	clear: both;
 }
 
+#about-text {
+	display: flex;
+}
+
 #about-img {
+	flex-grow: 1;
 	float: right;
 }
 
