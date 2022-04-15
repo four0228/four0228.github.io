@@ -62,6 +62,7 @@ table {
 
 #about-text {
 	display: flex;
+	width: 50%;
 }
 
 #about-img {
