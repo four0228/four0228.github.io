@@ -164,3 +164,18 @@ footer a {
   background: #55ACEE;
   color: white;
 }
+
+#links {
+	text-align: center;
+	float: left;
+}
+
+#socials {
+	text-align: center;
+	float: left;
+}
+
+#location {
+	text-align: center;
+	float: left;
+}
