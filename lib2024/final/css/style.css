@@ -147,6 +147,11 @@ th {
 	text-align: center;
 }
 
+#icon {
+	text-align: center;
+	font-size: 90px;
+}
+
 #email {
 	text-align: center;
 	font-size: 40px;
