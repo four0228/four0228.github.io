@@ -85,6 +85,7 @@ table, th, td {
 #profile-info {
 	border: 1px solid black;
 	width: 25%;
+	float: right;
 }
 
 .profile-text {
