@@ -67,6 +67,7 @@ table {
 
 .top-button {
   float: left;
+  width: 100%;
   background-color: #72A9AE;
   color: black;
 }
