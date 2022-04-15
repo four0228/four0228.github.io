@@ -88,6 +88,10 @@ h2,h3,h4,h5 {
   color: black;
 }
 
+#schedule {
+	float: left;
+}
+
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
