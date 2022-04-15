@@ -60,6 +60,10 @@ table {
 	clear: both;
 }
 
+#about-img {
+	float: right;
+}
+
 h2,h3,h4,h5 {
 	color: #73A8B0;
 	font-size: 30px;
