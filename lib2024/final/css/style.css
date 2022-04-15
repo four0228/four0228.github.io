@@ -116,8 +116,8 @@ th {
 }
 
 #profile-info {
-	border: 1px solid black;
-	border-shadow: 2px 2px 4px #000000;
+	/*border: 1px solid black;*/
+	border: 2px 2px 4px #000000;
 	width: inherit;
 	background-color: #ffffff;
 }
