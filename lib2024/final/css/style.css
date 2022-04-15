@@ -35,9 +35,11 @@ footer, header, hgroup, menu, nav, section {
 }
 header {
 	background-color: #ffffff;
+	height: 50px;
 }
 h1 {
 	color: #73A8B0;
+	font-size: 40px;
 }
 body {
 	line-height: 1;
