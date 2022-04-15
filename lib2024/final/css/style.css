@@ -87,6 +87,10 @@ table, th, td {
 	width: 30%;
 }
 
+.profile-text {
+	text-align: center;
+}
+
 .fa {
   padding: 20px;
   font-size: 40px;
