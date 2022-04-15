@@ -41,6 +41,9 @@ h1 {
 	color: #73A8B0;
 	font-size: 40px;
 }
+#logo-spartan {
+	font-family:  League Spartan;
+}
 body {
 	line-height: 1;
 	width:  960px;
@@ -86,8 +89,11 @@ h2,h3,h4,h5 {
 }
 
 #top-navigation {
-	Width: 100%;
+	width: 100%;
 	background-color: #72A9AE;
+	vertical-align: bottom;
+	margin: 0px;
+	text-decoration: none;
 }
 
 .top-button {
