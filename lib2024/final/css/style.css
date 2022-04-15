@@ -82,13 +82,12 @@ table, th, td {
   border-collapse: collapse;
 }
 
-h5 {
-	float: right;
-}
-
 #profile-info {
 	border: 1px solid black;
 	width: 25%;
+}
+
+.profile-align {
 	float: right;
 }
 
