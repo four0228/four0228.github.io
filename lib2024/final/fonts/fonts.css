@@ -1,8 +1,75 @@
 @font-face {
-  font-family: 'League Spartan';
-  src: url(LeagueSpartan-Bold.otf) format('otf');
+  font-family: 'LeagueSpartan-Bold';
+  src: url(../fonts/LeagueSpartan-Bold.otf) format('opentype');
+  font-style: normal;
 }
 @font-face {
-  font-family: 'Red Hat Display Black';
-  src: url(RedHatDisplay-Black.otf) format('otf');
+  font-family: 'RedHatDisplay-Black';
+  src: url(../fonts/RedHatDisplay-Black.otf) format('opentype');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RedHatDisplay-BlackItalic';
+  src: url(../fonts/RedHatDisplay-BlackItalic.otf) format('opentype');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RedHatDisplay-Bold';
+  src: url(../fonts/RedHatDisplay-Bold.otf) format('opentype');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RedHatDisplay-BoldItalic';
+  src: url(../fonts/RedHatDisplay-BoldItalic.otf) format('opentype');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RedHatDisplay-Medium';
+  src: url(../fonts/RedHatDisplay-Medium.otf) format('opentype');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RedHatDisplay-MediumItalic';
+  src: url(../fonts/RedHatDisplay-MediumItalic.otf) format('opentype');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RedHatDisplay-Regular';
+  src: url(../fonts/RedHatDisplay-Regular.otf) format('opentype');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RedHatDisplay-RegularItalic';
+  src: url(../fonts/RedHatDisplay-RegularItalic.otf) format('opentype');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RedHatText-Bold';
+  src: url(../fonts/RedHatText-Bold.otf) format('opentype');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RedHatText-BoldItalic';
+  src: url(../fonts/RedHatText-BoldItalic.otf) format('opentype');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RedHatText-Italic';
+  src: url(../fonts/RedHatText-Italic.otf) format('opentype');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RedHatText-Medium';
+  src: url(../fonts/RedHatText-Medium.otf) format('opentype');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RedHatText-MediumItalic';
+  src: url(../fonts/RedHatText-MediumItalic.otf) format('opentype');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RedHatText-Regular';
+  src: url(../fonts/RedHatText-Regular.otf) format('opentype');
+  font-style: normal;
 }

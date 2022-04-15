@@ -26,9 +26,10 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
+	font-family: RedHatDisplay-Regular;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+/* H*/TML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -43,7 +44,7 @@ h1 {
 	font-size: 40px;
 }
 #logo-spartan {
-	font-family:  League Spartan;
+	font-family:  LeagueSpartan-Bold;
 }
 body {
 	line-height: 1;
@@ -146,6 +147,10 @@ th {
 	text-align: center;
 }
 
+.fa-envelope {
+
+}
+
 footer {
 	background-color: #454545;
 	color: #ffffff;
@@ -161,7 +166,7 @@ footer {
   padding: 20px;
   font-size: 40px;
   width: 20px;
-  text-align: center;
+  /*text-align: center;*/
   text-decoration: none;
   border-radius: 50%;
 }
@@ -210,7 +215,7 @@ footer {
 }
 
 #location {
-	text-align: center;
+	text-align: left;
 	float: left;
 	margin: 0;
 	width: 33%;
