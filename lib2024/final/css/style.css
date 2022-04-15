@@ -36,6 +36,7 @@ footer, header, hgroup, menu, nav, section {
 header {
 	background-color: #ffffff;
 	height: 80px;
+	position: relative;
 }
 h1 {
 	color: #73A8B0;
@@ -64,6 +65,8 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+	width: 100%;
+	background-color: #ffffff;
 }
 
 /*CSS clearfix*/
@@ -72,6 +75,25 @@ table {
 	content: "";
 	display: table;
 	clear: both;
+}
+
+#top-navigation {
+	width: 100%;
+	background-color: #72A9AE;
+	position: absolute;
+	bottom:  0px;
+	margin: 0px;
+	display: table;
+}
+
+.top-button {
+  /*float: left;*/
+  width: 20%;
+  background-color: #72A9AE;
+  color: black;
+  text-decoration: none;
+  display: table-cell;
+  text-align: center;
 }
 
 #about-text {
@@ -88,21 +110,6 @@ h2,h3,h4,h5 {
 	font-size: 30px;
 }
 
-#top-navigation {
-	width: 100%;
-	background-color: #72A9AE;
-	vertical-align: bottom;
-	margin: 0px;
-}
-
-.top-button {
-  float: left;
-  width: 20%;
-  background-color: #72A9AE;
-  color: black;
-  text-decoration: none;
-}
-
 #schedule {
 	/*float: left;*/
 }
@@ -111,6 +118,7 @@ table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
   text-align: center;
+  /*width: 120%;*/
 }
 
 th {
@@ -141,6 +149,8 @@ th {
 footer {
 	background-color: #454545;
 	color: #ffffff;
+	padding: 0;
+	height: 100px;
 }
 .bottom-button {
 	color:  #ffffff;
@@ -181,17 +191,29 @@ footer {
   color: white;
 }
 
-/*#links {
+#links {
 	text-align: center;
 	float: left;
+	margin: 0;
+	width: 33%;
+	background-color: inherit;
+	height: inherit;
 }
 
 #socials {
 	text-align: center;
 	float: left;
+	margin: 0;
+	width: 33%;
+	background-color: inherit;
+	height: inherit;
 }
 
 #location {
 	text-align: center;
 	float: left;
-}*/
+	margin: 0;
+	width: 33%;
+	background-color: inherit;
+	height: inherit;
+}
