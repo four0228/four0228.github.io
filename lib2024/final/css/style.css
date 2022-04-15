@@ -147,8 +147,9 @@ th {
 	text-align: center;
 }
 
-.fa-envelope {
-
+#email {
+	text-align: center;
+	height: 30px;
 }
 
 footer {
