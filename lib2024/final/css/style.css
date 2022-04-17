@@ -131,6 +131,10 @@ th {
 	background-color: #EFEFEF;
 }
 
+label {
+	width: 30%;
+}
+
 #profile-form {
 	float: left;
 	width:  50%;
