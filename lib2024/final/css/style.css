@@ -131,8 +131,23 @@ th {
 	background-color: #EFEFEF;
 }
 
-label {
-	width: 30%;
+#profile {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+form {
+	position: relative;
+}
+
+.formlabel {
+	width: 40%;
+	display: inline-block;
+}
+
+input[type="submit"] {
+	position: absolute;
+	right: 20%;
 }
 
 #profile-form {
