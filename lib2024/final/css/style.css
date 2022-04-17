@@ -36,12 +36,13 @@ footer, header, hgroup, menu, nav, section {
 }
 header {
 	background-color: #ffffff;
-	height: 80px;
+	height: 90px;
 	position: relative;
 }
 h1 {
 	color: #73A8B0;
 	font-size: 40px;
+	padding: 25px 50px 25px 50px;
 }
 #logo-spartan {
 	font-family:  LeagueSpartan-Bold;
@@ -96,6 +97,10 @@ table {
   text-align: center;
 }
 
+#main {
+	padding: 25px 50px 25px 50px;
+}
+
 #about-text {
 	width: 50%;
 	float: left;
@@ -103,7 +108,15 @@ table {
 
 #about-img {
 	float: right;
+	width: 240px;
+	height:  160px;
+	transition: width height 5s linear 1s;
 }
+#about-img:hover {
+	width: 360px;
+	height: 240px; 
+}
+
 
 h2,h3,h4,h5 {
 	color: #73A8B0;
@@ -157,7 +170,6 @@ input[type="submit"] {
 
 #profile-info {
 	border: 1px solid #e1e1e1;
-	width: inherit;
 	background-color: #ffffff;
 	box-shadow: 5px 10px #c1c1c1;
 }
@@ -191,6 +203,12 @@ footer {
 	padding: 0;
 	height: 100px;
 }
+
+h6 {
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
 .bottom-button {
 	color:  #ffffff;
 	text-decoration: none;
