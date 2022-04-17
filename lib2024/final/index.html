@@ -78,7 +78,7 @@
 	<section id="profile">	
 		<div id="profile-form">	
 			<h4>Edit Profile</h4>
-			<form action="#" id="frm" method="get">
+			<form action="#" id="frm" method="post">
   			<label for="name" class="formlabel">Name:</label>
   			<input type="text" id="name" name="name" placeholder="Mona Lisa"><br><br>
   			<label for="email" class="formlabel">Email:</label>
@@ -89,6 +89,7 @@
   			<input type="text" id="city" name="city" placeholder="Atlantis"><br><br>
   			<label for="province" class="formlabel">Province</label>
   				<select id="province" name="province">
+  					<option value="">Select Province</option>
   					<option value="AB">Alberta</option>
   					<option value="BC">British Columbia</option>
   					<option value="MB">Manitoba</option>
@@ -104,17 +105,17 @@
   			<input type="postal" id="postal" name="postal" placeholder="A1B 2C3"><br><br>	
   			<input type="submit" value="Submit">
 			</form>
-			<script type="text/javascript" src="js/script.js"></script>
+			<script type="text/javascript" src="js/scripts.js"></script>
 		</div>
 		<div id="profile-inside">
 			<h5>Profile Info</h5><br>
 			<div id="profile-info">
 				<p style="font-family: modernpics;" id="icon">k</p>
-				<p class="profile-text" id="pname">John Doe</p><br>
-				<p class="profile-text" id="pemail">JohnDoe@algonquincollege.com</p><br>
-				<p class="profile-text" id="paddress">1385 Woodroffe Ave, Nepean,</p><br>
-				<p class="profile-text" id="ppostal">ON, K2G 1V8</p><br>
-				<p style="font-family: modernpics;" id="profile-email">m</p>
+				<p class="profile-text lightblue" id="pname">John Doe</p>
+				<p class="profile-text" id="pemail">JohnDoe@algonquincollege.com</p>
+				<p class="profile-text" id="paddress">1385 Woodroffe Ave, Nepean,</p>
+				<p class="profile-text" id="ppostal">ON, K2G 1V8</p>
+				<p class="lightblue" style="font-family: modernpics;" id="profile-email">m</p>
 			</div>
 		</div>
 			<div class="clearfix"></div>
