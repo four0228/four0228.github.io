@@ -36,7 +36,7 @@ footer, header, hgroup, menu, nav, section {
 }
 header {
 	background-color: #ffffff;
-	height: 90px;
+	height: 110px; 
 	position: relative;
 }
 h1 {
@@ -84,16 +84,18 @@ table {
 	position: absolute;
 	bottom:  0px;
 	margin: 0px;
-	display: table;
+	display: block; 
 }
 
 .top-button {
   /*float: left;*/
-  width: 20%;
+  width: 15%;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #72A9AE;
   color: black;
   text-decoration: none;
-  display: table-cell;
+  display: inline-block;  
   text-align: center;
 }
 
@@ -144,6 +146,13 @@ th {
 	color: #73A8B0;
 	font-size: 20px;
 	background-color: #ffffff;
+	padding-top:  10px;
+	padding-bottom: 10px;
+}
+
+td {
+	padding-top:  10px;
+	padding-bottom: 10px;
 }
 
 .grey-cell {
