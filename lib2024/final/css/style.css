@@ -106,6 +106,10 @@ table {
 	float: left;
 }
 
+#about-text p {
+	margin-bottom: 20px;
+}
+
 #about-img {
 	float: right;
 	width: 240px;
@@ -120,6 +124,9 @@ table {
 h2,h3,h4,h5 {
 	color: #73A8B0;
 	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 20px 0 20px 0;
 }
 
 /*#schedule {
@@ -199,14 +206,19 @@ input[type="submit"] {
 footer {
 	background-color: #454545;
 	color: #ffffff;
-	padding: 0;
-	height: 100px;
+	padding: 25px 0 25px 0;
+	height: 150px;
 	text-transform: uppercase;
 }
 
 h6 {
 	font-size: 20px;
 	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+#bottom-navigation1 {
+	line-height: 25px;
 }
 
 .bottom-button {
@@ -273,4 +285,8 @@ h6 {
 	width: 33%;
 	background-color: inherit;
 	height: inherit;
+}
+
+#location p {
+	margin-bottom: 10px;
 }
