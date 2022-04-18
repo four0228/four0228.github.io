@@ -117,15 +117,14 @@ table {
 	height: 240px; 
 }
 
-
 h2,h3,h4,h5 {
 	color: #73A8B0;
 	font-size: 30px;
 }
 
-#schedule {
-	/*float: left;*/
-}
+/*#schedule {
+	float: left;
+}*/
 
 table, th, td {
   border: 1px solid black;
@@ -229,9 +228,9 @@ h6 {
   float: center;
 }
 
-.fa-user {
+/*.fa-user {
 	background: #FFFFFF;
-}
+}*/
 
 .fa-facebook {
   background: #3B5998;
