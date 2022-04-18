@@ -70,8 +70,6 @@ table {
 	width: 100%;
 }
 
-/*CSS clearfix*/
-
 .clearfix:after {
 	content: "";
 	display: table;
@@ -88,7 +86,6 @@ table {
 }
 
 .top-button {
-  /*float: left;*/
   width: 15%;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -131,15 +128,10 @@ h2,h3,h4,h5 {
 	margin: 20px 0 20px 0;
 }
 
-/*#schedule {
-	float: left;
-}*/
-
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
   text-align: center;
-  /*width: 120%;*/
 }
 
 th {
@@ -243,16 +235,6 @@ h6 {
   text-decoration: none;
   border-radius: 50%;
 }
-
-/*.fa-solid {
-	padding: 20px;
-  border-radius: 50%;
-  float: center;
-}*/
-
-/*.fa-user {
-	background: #FFFFFF;
-}*/
 
 .fa-facebook {
   background: #3B5998;
